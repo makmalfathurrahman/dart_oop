@@ -4,6 +4,8 @@ void main() {
   var number2 = const Point(10, "Ten");
 
   print(number1 == number2);
+  print(number1.hashCode);
+  print(number2.hashCode);
 }
 
 class Point {

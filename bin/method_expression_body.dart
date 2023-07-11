@@ -7,7 +7,10 @@ void main() {
 }
 
 class Animal {
-  void cat() => print("Cat is mamals");
+  void cat() {
+    print("Cat is mamals");
+  }
+
   void snake() => print("Snake is reptils");
   void whale() => print("Whale is fish");
 }

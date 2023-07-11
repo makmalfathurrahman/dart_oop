@@ -31,7 +31,7 @@ class Place {
 
 // This
 class Vehicle {
-  String? type;
+  var type;
   String? brand;
   int? year;
 
@@ -42,7 +42,7 @@ class Vehicle {
 
   // Or use this simple code instead
 
-  Vehicle(String this.type, String this.brand, int this.year) {
+  Vehicle(this.type, String this.brand, int this.year) {
     print("$type $brand $year");
   }
 }
